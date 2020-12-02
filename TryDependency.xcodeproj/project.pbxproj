@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		755EFB69264BD6C0008F0BD5 /* TryCarthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryCarthage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		755EFB69264BD6C0008F0BD5 /* TryDependency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryDependency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		755EFB6C264BD6C0008F0BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		755EFB6E264BD6C0008F0BD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		755EFB70264BD6C0008F0BD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		755EFB60264BD6C0008F0BD5 = {
 			isa = PBXGroup;
 			children = (
-				755EFB6B264BD6C0008F0BD5 /* TryCarthage */,
+				755EFB6B264BD6C0008F0BD5 /* TryDependency */,
 				755EFB6A264BD6C0008F0BD5 /* Products */,
 				755EFB82264BD968008F0BD5 /* Frameworks */,
 			);
@@ -67,12 +67,12 @@
 		755EFB6A264BD6C0008F0BD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				755EFB69264BD6C0008F0BD5 /* TryCarthage.app */,
+				755EFB69264BD6C0008F0BD5 /* TryDependency.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		755EFB6B264BD6C0008F0BD5 /* TryCarthage */ = {
+		755EFB6B264BD6C0008F0BD5 /* TryDependency */ = {
 			isa = PBXGroup;
 			children = (
 				755EFB6C264BD6C0008F0BD5 /* AppDelegate.swift */,
@@ -83,7 +83,7 @@
 				755EFB7A264BD6C1008F0BD5 /* Info.plist */,
 				755EFB74264BD6C1008F0BD5 /* Preview Content */,
 			);
-			path = TryCarthage;
+			path = TryDependency;
 			sourceTree = "<group>";
 		};
 		755EFB74264BD6C1008F0BD5 /* Preview Content */ = {
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		755EFB68264BD6C0008F0BD5 /* TryCarthage */ = {
+		755EFB68264BD6C0008F0BD5 /* TryDependency */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 755EFB7D264BD6C1008F0BD5 /* Build configuration list for PBXNativeTarget "TryCarthage" */;
+			buildConfigurationList = 755EFB7D264BD6C1008F0BD5 /* Build configuration list for PBXNativeTarget "TryDependency" */;
 			buildPhases = (
 				755EFB65264BD6C0008F0BD5 /* Sources */,
 				755EFB66264BD6C0008F0BD5 /* Frameworks */,
@@ -118,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = TryCarthage;
+			name = TryDependency;
 			productName = TryCarthage;
-			productReference = 755EFB69264BD6C0008F0BD5 /* TryCarthage.app */;
+			productReference = 755EFB69264BD6C0008F0BD5 /* TryDependency.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 755EFB64264BD6C0008F0BD5 /* Build configuration list for PBXProject "TryCarthage" */;
+			buildConfigurationList = 755EFB64264BD6C0008F0BD5 /* Build configuration list for PBXProject "TryDependency" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				755EFB68264BD6C0008F0BD5 /* TryCarthage */,
+				755EFB68264BD6C0008F0BD5 /* TryDependency */,
 			);
 		};
 /* End PBXProject section */
@@ -317,12 +317,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TryCarthage/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TryCarthage/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TryDependency/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.TryCarthage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TryDependency;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,12 +337,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TryCarthage/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TryCarthage/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TryDependency/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.TryCarthage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TryDependency;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -352,7 +352,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		755EFB64264BD6C0008F0BD5 /* Build configuration list for PBXProject "TryCarthage" */ = {
+		755EFB64264BD6C0008F0BD5 /* Build configuration list for PBXProject "TryDependency" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				755EFB7B264BD6C1008F0BD5 /* Debug */,
@@ -361,7 +361,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		755EFB7D264BD6C1008F0BD5 /* Build configuration list for PBXNativeTarget "TryCarthage" */ = {
+		755EFB7D264BD6C1008F0BD5 /* Build configuration list for PBXNativeTarget "TryDependency" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				755EFB7E264BD6C1008F0BD5 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/watsuzuk/XcodeProjects/Try-iOS-Dependency/TryDependency.xcodeproj">
    </FileRef>
 </Workspace>
