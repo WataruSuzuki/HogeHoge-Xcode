@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TrySwiftPM",
+        "repositoryURL": "https://github.com/WataruSuzuki/Try-SwiftPM",
+        "state": {
+          "branch": null,
+          "revision": "e53a203916be458208c1c7ccd166d6257ebc88c3",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

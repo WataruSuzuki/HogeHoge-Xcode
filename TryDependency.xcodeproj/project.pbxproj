@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750EEB90264E11BB001CF234 /* TrySwiftPM in Frameworks */ = {isa = PBXBuildFile; productRef = 750EEB8F264E11BB001CF234 /* TrySwiftPM */; };
 		755EFB6D264BD6C0008F0BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EFB6C264BD6C0008F0BD5 /* AppDelegate.swift */; };
 		755EFB6F264BD6C0008F0BD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EFB6E264BD6C0008F0BD5 /* SceneDelegate.swift */; };
 		755EFB71264BD6C0008F0BD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EFB70264BD6C0008F0BD5 /* ContentView.swift */; };
@@ -49,6 +50,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				755EFB84264BD968008F0BD5 /* Alamofire.xcframework in Frameworks */,
+				750EEB90264E11BB001CF234 /* TrySwiftPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +121,9 @@
 			dependencies = (
 			);
 			name = TryDependency;
+			packageProductDependencies = (
+				750EEB8F264E11BB001CF234 /* TrySwiftPM */,
+			);
 			productName = TryCarthage;
 			productReference = 755EFB69264BD6C0008F0BD5 /* TryDependency.app */;
 			productType = "com.apple.product-type.application";
@@ -146,6 +151,9 @@
 				Base,
 			);
 			mainGroup = 755EFB60264BD6C0008F0BD5;
+			packageReferences = (
+				750EEB8E264E11BB001CF234 /* XCRemoteSwiftPackageReference "Try-SwiftPM" */,
+			);
 			productRefGroup = 755EFB6A264BD6C0008F0BD5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -371,6 +379,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		750EEB8E264E11BB001CF234 /* XCRemoteSwiftPackageReference "Try-SwiftPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WataruSuzuki/Try-SwiftPM";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		750EEB8F264E11BB001CF234 /* TrySwiftPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 750EEB8E264E11BB001CF234 /* XCRemoteSwiftPackageReference "Try-SwiftPM" */;
+			productName = TrySwiftPM;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 755EFB61264BD6C0008F0BD5 /* Project object */;
 }
