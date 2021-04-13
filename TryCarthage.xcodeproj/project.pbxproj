@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,23 @@
 		755EFB73264BD6C1008F0BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755EFB72264BD6C1008F0BD5 /* Assets.xcassets */; };
 		755EFB76264BD6C1008F0BD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755EFB75264BD6C1008F0BD5 /* Preview Assets.xcassets */; };
 		755EFB79264BD6C1008F0BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755EFB77264BD6C1008F0BD5 /* LaunchScreen.storyboard */; };
+		755EFB84264BD968008F0BD5 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755EFB83264BD968008F0BD5 /* Alamofire.xcframework */; };
+		755EFB85264BD968008F0BD5 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 755EFB83264BD968008F0BD5 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		755EFB86264BD968008F0BD5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				755EFB85264BD968008F0BD5 /* Alamofire.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		755EFB69264BD6C0008F0BD5 /* TryCarthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryCarthage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +40,7 @@
 		755EFB75264BD6C1008F0BD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		755EFB78264BD6C1008F0BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		755EFB7A264BD6C1008F0BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755EFB83264BD968008F0BD5 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755EFB84264BD968008F0BD5 /* Alamofire.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 			children = (
 				755EFB6B264BD6C0008F0BD5 /* TryCarthage */,
 				755EFB6A264BD6C0008F0BD5 /* Products */,
+				755EFB82264BD968008F0BD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +94,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		755EFB82264BD968008F0BD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				755EFB83264BD968008F0BD5 /* Alamofire.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +112,7 @@
 				755EFB65264BD6C0008F0BD5 /* Sources */,
 				755EFB66264BD6C0008F0BD5 /* Frameworks */,
 				755EFB67264BD6C0008F0BD5 /* Resources */,
+				755EFB86264BD968008F0BD5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
